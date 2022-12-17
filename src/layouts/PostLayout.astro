@@ -1,0 +1,26 @@
+---
+const {frontmatter} = Astro.props
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{frontmatter.title}</title>
+  </head>
+  <body class="min-h-screen bg-purple-50 font-sans">
+    <main class="w-4/5 mx-auto my-14">
+      <article class="max-w-3xl mx-auto">
+        <header class="block">
+          <h1 class="text-jusitfy text-6xl font-bold ">{frontmatter.title}</h1>
+          <span class="inline-block text-left text-sm font-light mt-3">{frontmatter.date}</span>
+        </header>
+
+        <div class="prose prose-pre:my-12 prose-code:text-sm prose-code:font-mono max-w-3xl text-lg mt-12 mx-auto">
+          <slot />
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
