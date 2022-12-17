@@ -1,6 +1,6 @@
 ---
 layout: '../../layouts/PostLayout.astro'
-title: 'Copy slices, arrays, maps and structs in Go'
+title: 'Copiar slices, arrays, maps y structs en Go'
 date: '16-12-2022'
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci phasellus egestas tellus rutrum tellus.
