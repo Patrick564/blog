@@ -7,9 +7,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 Tellus cras adipiscing enim eu. At consectetur lorem donec massa sapien faucibus et molestie ac. Vestibulum morbi blandit cursus risus at ultrices.
 
-A arcu cursus vitae congue mauris. Ipsum dolor sit amet consectetur adipiscing elit ut. Neque vitae tempus quam pellentesque nec nam aliquam sem et. Ut lectus arcu bibendum at varius vel. Facilisis leo vel fringilla est ullamcorper eget nulla. Sodales neque sodales ut etiam sit amet nisl purus. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam erat. Auctor urna nunc id cursus metus.
+A arcu cursus vitae congue mauris. Ipsum dolor sit amet consectetur adipiscing elit ut. Neque vitae tempus quam pellentesque nec nam aliquam sem et. Ut lectus arcu bibendum at varius vel. Facilisis leo vel fringilla est ullamcorper eget nulla. Sodales neque sodales ut etiam sit amet nisl purus. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam erat. Auctor urna nunc id cursus metus. `strconv.Atoi` o `strconv.Itoa`
 
-Non diam phasellus vestibulum lorem sed risus ultricies tristique. Cras sed felis eget velit aliquet sagittis id consectetur. Condimentum id venenatis a condimentum vitae sapien pellentesque. Egestas fringilla phasellus faucibus scelerisque eleifend donec pretium.
+> Non diam phasellus vestibulum lorem sed risus ultricies tristique. Cras sed felis eget velit aliquet sagittis id consectetur. Condimentum id venenatis a condimentum vitae sapien pellentesque. Egestas fringilla phasellus faucibus scelerisque eleifend donec pretium.
 
 Augue eget arcu dictum varius duis at consectetur lorem donec. Interdum consectetur libero id faucibus nisl. Dolor sit amet consectetur adipiscing elit. Velit scelerisque in dictum non consectetur. Massa tincidunt dui ut ornare lectus sit amet est placerat. Facilisi nullam vehicula ipsum a arcu cursus.
 
@@ -55,3 +55,7 @@ func main() {
     fmt.Println("Hello word!")
 }
 ```
+
+Ejemplo usar `fmt` para escribir texto o variables en la consola.
+
+Go page is [Go](https://go.dev/).
