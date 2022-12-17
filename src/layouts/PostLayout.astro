@@ -14,11 +14,11 @@ const {frontmatter} = Astro.props
       <article class="max-w-3xl mx-auto">
         <header class="block">
           <h1 class="text-jusitfy text-6xl font-bold ">{frontmatter.title}</h1>
-          <span class="inline-block text-left text-sm font-light mt-3">{frontmatter.date}</span>
+          <span class="inline-block text-left text-sm font-light mt-5">Editado por última vez: {frontmatter.date}</span>
         </header>
 
-        <div class="prose prose-pre:my-12 prose-code:text-sm prose-code:font-mono max-w-3xl text-lg mt-12 mx-auto">
-          <slot />
+        <div class="prose prose-slate prose-pre:!bg-slate-800 prose-pre:my-12 prose-code:text-sm prose-code:font-mono max-w-3xl text-lg mt-12 mx-auto">
+          <slot style="" />
         </div>
       </article>
     </main>
