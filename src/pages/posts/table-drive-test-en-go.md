@@ -1,6 +1,7 @@
 ---
 layout: '../../layouts/PostLayout.astro'
-title: 'Copiar slices, arrays, maps y structs en Go'
+title: 'Table driven test en Go'
+description: 'Descripción de ejemplo para la entrada del blog.'
 date: '16 diciembre 2022'
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci phasellus egestas tellus rutrum tellus.
@@ -17,16 +18,20 @@ Tempor id eu nisl nunc mi ipsum faucibus vitae. Sapien pellentesque habitant mor
 
 - **bold** and _italics._
 - lists
-- [links](https://astro.build)
 - and more!
 
 ```go
-package main
+package main_test
 
-import "fmt"
+import "testing"
 
-func main() {
-    fmt.Println("Hello word!")
+func TestMain() {
+    tests := []struct{
+        name    string
+        content int
+    }{
+        {name: "first", content: 15},
+    }
 }
 ```
 

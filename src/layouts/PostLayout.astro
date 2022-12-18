@@ -1,6 +1,9 @@
 ---
+import Body from '../components/Body.astro'
+
 const {frontmatter} = Astro.props
 ---
+
 <!DOCTYPE html>
 <html lang="es">
   <head>
@@ -9,7 +12,7 @@ const {frontmatter} = Astro.props
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{frontmatter.title}</title>
   </head>
-  <body class="min-h-screen bg-blue-50 font-sans">
+  <Body>
     <main class="w-4/5 mx-auto my-14">
       <article class="max-w-3xl mx-auto">
         <header class="block">
@@ -22,5 +25,5 @@ const {frontmatter} = Astro.props
         </div>
       </article>
     </main>
-  </body>
+  </Body>
 </html>
