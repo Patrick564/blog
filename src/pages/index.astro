@@ -1,13 +1,16 @@
 ---
 import Layout from '../layouts/Layout.astro'
 import Card from '../components/Card.astro'
+import Navbar from '../components/Navbar.astro'
 
 const posts = await Astro.glob('../pages/posts/*.md')
 const nonDraftPosts = posts.filter(post => !post.frontmatter.draft)
 ---
 
 <Layout title="Patrick Vilchez | Backend developer">
-	<main class="max-w-2xl mx-auto my-14">
+	<Navbar />
+
+	<main class="max-w-2xl mx-auto mb-14">
 		<h1 class="text-5xl font-bold px-2">Página principal</h1>
 		<p class="my-7 px-3">
 			Pequeña descripción pendiente... O no...
